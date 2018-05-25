@@ -1,0 +1,30 @@
+.awesome-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.awesome {
+    position: fixed;
+    margin-left: auto;
+    margin-top: 50vh
+}
+
+.main-text {
+    animation-duration: 1s;
+    animation-name: fadein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes fadein {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
